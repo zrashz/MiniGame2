@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Match Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Color Match</h1>
+    </header>
+    <div class="instructions">
+        <p>Click on the color that matches the target color shown below. You have 30 seconds to match as many colors as possible!</p>
+    </div>
+    <div class="target-color">
+        <p>Target Color: <span id="targetColor"></span></p>
+    </div>
+    <div class="game-container">
+        <div class="color-option" id="color1"></div>
+        <div class="color-option" id="color2"></div>
+        <div class="color-option" id="color3"></div>
+        <div class="color-option" id="color4"></div>
+    </div>
+    <div class="scoreboard">
+        <p>Score: <span id="score">0</span></p>
+        <p>Time Left: <span id="timeLeft">30</span> seconds</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
